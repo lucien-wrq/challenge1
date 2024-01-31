@@ -1,0 +1,113 @@
+.body {
+    display: flex;
+    align-items: center;
+    background-image: url(assets/background.png);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.Modal {
+    display: flex;
+    width: 400px;
+    padding: 24px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--e-0-e-0-e-0, #E0E0E0);
+    background: #ffff;
+}
+
+.CloseButton {
+    padding: 8px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex;
+}
+
+.StartRating {
+    align-self: stretch; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.StarGroup {
+    justify-content: flex-start; 
+    align-items: center; 
+    display: flex;
+    padding-right: 36px;
+}
+
+.ButtonRounded {
+    padding: 8px; 
+    border-radius: 40px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: flex;
+}
+
+.IconStar {
+    width: 32px; 
+    height: 32px; 
+    position: relative;
+    
+}
+
+.HowManyStarsTheyDeserve {
+    align-self: stretch;
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 31.20px;
+    word-wrap: break-word;
+}
+
+.JonahNoahDeliveredYourOrderFromNanicaHomemadePiesTodayAt19477MinAheadSchedule {
+    align-self: stretch; 
+    text-align: center;
+}
+
+.span1 {
+    color: #333333; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.span2 {
+    color: #333333; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.span3 {
+    color: #333333; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+button {
+    border: #E0E0E0;
+    background-image: url(assets/star_hover.png);
+}
+
+button:hover {
+    background-image: url(assets/star_hover.png);
+}
