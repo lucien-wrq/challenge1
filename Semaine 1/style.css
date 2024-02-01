@@ -41,7 +41,8 @@
     justify-content: flex-start; 
     align-items: center; 
     display: flex;
-    padding-right: 36px;
+    width: 240px;
+    height: 48px;
 }
 
 .ButtonRounded {
@@ -103,11 +104,13 @@
     word-wrap: break-word;
 }
 
-button {
-    border: #E0E0E0;
-    background-image: url(assets/star_hover.png);
+.ButtonRounded button {
+    width: 48px;
+    height: 48px;
 }
 
-button:hover {
-    background-image: url(assets/star_hover.png);
+.CloseButton button {
+    width: 32px;
+    height: 32px;
 }
+
